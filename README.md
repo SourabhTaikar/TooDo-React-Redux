@@ -9,7 +9,7 @@ Features
 Installation
 1. Clone the repository:
 Copy code
-git clone https://github.com/yourusername/todo-app.git
+git clone https://github.com/SourabhTaikar/TooDo-React-Redux
 
 2.Navigate to the project directory:
 Copy code
