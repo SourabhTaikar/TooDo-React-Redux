@@ -2,31 +2,9 @@ Todo App using React & Redux
 A simple Todo application built with React and Redux. Users can add, remove, and toggle the completion status of todo items.
 
 Features
-Add Todo
-Remove Todo
-Toggle Completion
-
-Project Structure
-
-my-todo-app/
-│
-├── src/
-│   ├── App.js
-│   ├── App.css
-│   ├── index.js
-│   ├── redux/
-│   │   ├── Todoapp/
-│   │   │   ├── actions/
-│   │   │   │   └── action.js
-│   │   │   ├── reducers/
-│   │   │   │   └── reducers.js
-│   │   │   └── rootReducer.js
-│   ├── store.js
-│   ├── Component/
-│   │   ├── Form.jsx
-│   │   └── Todos.jsx
-│   ├── logo.svg
-│   └── ...
+1. Add Todo
+2. Remove Todo
+3. Toggle Completion
 
 Installation
 1. Clone the repository:
