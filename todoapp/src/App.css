@@ -1,0 +1,89 @@
+/* General styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  .wrapper {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  /* Form component styles */
+  .form {
+    margin-bottom: 20px;
+  }
+  
+  .inputText {
+    width: 80%;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .submitButton {
+    padding: 10px 20px;
+    border: none;
+    background-color: #5cb85c;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .submitButton:hover {
+    background-color: #4cae4c;
+  }
+  
+  /* Todos component styles */
+  .todoBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .todoBox p {
+    flex: 1;
+    margin: 0;
+    padding-left: 10px;
+    color: #333;
+  }
+  
+  .todoBox input[type='checkbox'] {
+    margin-right: 10px;
+  }
+  
+  .remove {
+    color: black;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: all 0.5s;
+    
+  }
+  
+  .remove:hover {
+    color: #c9302c;
+  }
+  
+  .todoBox p.completed {
+    text-decoration: line-through;
+    color: #777;
+  }
+  
